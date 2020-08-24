@@ -34,6 +34,7 @@ app.use('/api/email', emailRoutes)
 // MUST BE AFTER ROUTES
 app.use(express.static('public'));
 
-const PORT = process.env.PORT || 3025;
+// const PORT = process.env.PORT || 3025;
+const PORT = 3025;
 const NOVE_ENV = process.env.NOVE_ENV || 'development'
 app.listen(PORT);
