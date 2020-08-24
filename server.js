@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 const cors = require('cors');
 app.use(cors({
-  origin: ['http://localhost:8080'],
+  origin: ['http://localhost:8080','http://kl-architects.co.il/'],
   credentials: true // enable set cookie
 }))
 
@@ -34,6 +34,6 @@ app.use('/api/email', emailRoutes)
 // MUST BE AFTER ROUTES
 app.use(express.static('public'));
 
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3025;
 const NOVE_ENV = process.env.NOVE_ENV || 'development'
 app.listen(PORT);
