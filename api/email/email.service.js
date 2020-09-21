@@ -1,26 +1,19 @@
 const nodemailer = require('nodemailer');
 
-const emailAddress = 'ron2man10@gmail.com'
-
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: emailAddress,
-      pass: 'ron9565239' // naturally, replace both with your real credentials or an application-specific password
+      user: 'keren.architects@gmail.com',
+      pass: 'Qd4<p+P>' // naturally, replace both with your real credentials or an application-specific password
     }
   });
   
-
-
-
-
 async function startEmail(email, name, msg) {
     const mailOptions = {
-        from: 'lala@gmail.com',
-        // from: email,
-        to: emailAddress,
+        from: `website lead <keren.architects@gmail.com>`,
+        to: 'keren.architects@gmail.com',
         subject: 'Lets start a new project',
-        text: `${name} => ${msg}`
+        html: `sender email: ${email}<br><br> sender name: ${name}<br><br> msg: ${msg}`,
       };
       
       transporter.sendMail(mailOptions, function(error, info){
