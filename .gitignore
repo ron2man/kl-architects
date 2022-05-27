@@ -63,3 +63,4 @@ config/env/test.js
 config/env/env.json
 config/env/development.js
 config/env/production.js
+/.idea/
