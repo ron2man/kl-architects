@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{"96b2":function(o,p,a){o.exports=a.p+"img/about-kl.f32e89da.jpg"},baaf:function(o,p,a){o.exports=a.p+"img/about-studio.da25fd27.jpg"}}]);
