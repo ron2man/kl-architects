@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["contact"],{"8b4a":function(t,n,a){t.exports=a.p+"img/under-construction.b3005668.jpg"},"905a":function(t,n,a){"use strict";var c=a("bc3a"),e=a.n(c),i=e.a.create({baseURL:"https://kl-architects.co.il"});function o(t){return i.post("/api/email",{emailData:t}).then((function(t){return t.data}))}n["a"]={sendEmail:o}}}]);
