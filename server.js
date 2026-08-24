@@ -37,9 +37,6 @@ app.use(cors({
   credentials: true // enable set cookie
 }))
 
-const emailRoutes = require('./api/email/email.routes')
-app.use('/api/email', emailRoutes)
-
 
 
 
